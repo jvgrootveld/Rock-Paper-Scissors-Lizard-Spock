@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F232F8F3156E3A650045C499 /* rps_rules.png in Resources */ = {isa = PBXBuildFile; fileRef = F232F8F2156E3A650045C499 /* rps_rules.png */; };
+		F232F8F7156E3B3A0045C499 /* RulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F232F8F6156E3B3A0045C499 /* RulesViewController.m */; };
 		F244A045156BA8A00046F08A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = F244A044156BA8A00046F08A /* Player.m */; };
 		F244A051156BB0D00046F08A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F244A050156BB0D00046F08A /* GameViewController.m */; };
 		F244A054156BB5EF0046F08A /* ComputerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F244A053156BB5EF0046F08A /* ComputerPlayer.m */; };
@@ -25,6 +27,8 @@
 		F266A730156B70DC00727DD1 /* RockPaperScissorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F266A72F156B70DC00727DD1 /* RockPaperScissorsTests.m */; };
 		F266A73C156B70FB00727DD1 /* HandSign.m in Sources */ = {isa = PBXBuildFile; fileRef = F266A73B156B70FB00727DD1 /* HandSign.m */; };
 		F266A743156B7A3300727DD1 /* SignHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F266A742156B7A3300727DD1 /* SignHelper.m */; };
+		F2A18FA2156E3F5D00B93FFE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A18FA1156E3F5D00B93FFE /* MediaPlayer.framework */; };
+		F2A18FA8156E3FA600B93FFE /* rps_video.mov in Resources */ = {isa = PBXBuildFile; fileRef = F2A18FA7156E3FA600B93FFE /* rps_video.mov */; };
 		F2CB3DE9156CDFFE00C5A945 /* HandSignFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CB3DE8156CDFFE00C5A945 /* HandSignFactory.m */; };
 		F2CB3DED156CE2E600C5A945 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CB3DEC156CE2E600C5A945 /* GameController.m */; };
 		F2CB3DF4156CF1F600C5A945 /* Lizard.png in Resources */ = {isa = PBXBuildFile; fileRef = F2CB3DEF156CF1F600C5A945 /* Lizard.png */; };
@@ -46,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F232F8F2156E3A650045C499 /* rps_rules.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rps_rules.png; sourceTree = "<group>"; };
+		F232F8F5156E3B3A0045C499 /* RulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulesViewController.h; sourceTree = "<group>"; };
+		F232F8F6156E3B3A0045C499 /* RulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulesViewController.m; sourceTree = "<group>"; };
 		F244A043156BA8A00046F08A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		F244A044156BA8A00046F08A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		F244A04F156BB0D00046F08A /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
@@ -75,6 +82,8 @@
 		F266A73B156B70FB00727DD1 /* HandSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandSign.m; sourceTree = "<group>"; };
 		F266A741156B7A3300727DD1 /* SignHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignHelper.h; sourceTree = "<group>"; };
 		F266A742156B7A3300727DD1 /* SignHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignHelper.m; sourceTree = "<group>"; };
+		F2A18FA1156E3F5D00B93FFE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F2A18FA7156E3FA600B93FFE /* rps_video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = rps_video.mov; sourceTree = "<group>"; };
 		F2CB3DE7156CDFFE00C5A945 /* HandSignFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandSignFactory.h; sourceTree = "<group>"; };
 		F2CB3DE8156CDFFE00C5A945 /* HandSignFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandSignFactory.m; sourceTree = "<group>"; };
 		F2CB3DEB156CE2E600C5A945 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
@@ -92,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A18FA2156E3F5D00B93FFE /* MediaPlayer.framework in Frameworks */,
 				F266A705156B70DC00727DD1 /* UIKit.framework in Frameworks */,
 				F266A707156B70DC00727DD1 /* Foundation.framework in Frameworks */,
 				F266A709156B70DC00727DD1 /* CoreGraphics.framework in Frameworks */,
@@ -130,6 +140,8 @@
 				F266A71A156B70DC00727DD1 /* MenuViewController.m */,
 				F244A04F156BB0D00046F08A /* GameViewController.h */,
 				F244A050156BB0D00046F08A /* GameViewController.m */,
+				F232F8F5156E3B3A0045C499 /* RulesViewController.h */,
+				F232F8F6156E3B3A0045C499 /* RulesViewController.m */,
 			);
 			name = "View controllers";
 			sourceTree = "<group>";
@@ -164,6 +176,7 @@
 		F266A703156B70DC00727DD1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F2A18FA1156E3F5D00B93FFE /* MediaPlayer.framework */,
 				F266A704156B70DC00727DD1 /* UIKit.framework */,
 				F266A706156B70DC00727DD1 /* Foundation.framework */,
 				F266A708156B70DC00727DD1 /* CoreGraphics.framework */,
@@ -175,6 +188,7 @@
 		F266A70A156B70DC00727DD1 /* RockPaperScissors */ = {
 			isa = PBXGroup;
 			children = (
+				F2A18FA4156E3F8600B93FFE /* video */,
 				F2CB3DEE156CF1DF00C5A945 /* Images */,
 				F266A744156B7A3A00727DD1 /* Helpers */,
 				F266A739156B70E300727DD1 /* Models */,
@@ -239,9 +253,18 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		F2A18FA4156E3F8600B93FFE /* video */ = {
+			isa = PBXGroup;
+			children = (
+				F2A18FA7156E3FA600B93FFE /* rps_video.mov */,
+			);
+			name = video;
+			sourceTree = "<group>";
+		};
 		F2CB3DEE156CF1DF00C5A945 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F232F8F2156E3A650045C499 /* rps_rules.png */,
 				F2CB3DF9156D0C0300C5A945 /* rps_bg.png */,
 				F2CB3DEF156CF1F600C5A945 /* Lizard.png */,
 				F2CB3DF0156CF1F600C5A945 /* paper.png */,
@@ -331,6 +354,8 @@
 				F2CB3DF7156CF1F600C5A945 /* scissors.png in Resources */,
 				F2CB3DF8156CF1F600C5A945 /* spock.png in Resources */,
 				F2CB3DFA156D0C0300C5A945 /* rps_bg.png in Resources */,
+				F232F8F3156E3A650045C499 /* rps_rules.png in Resources */,
+				F2A18FA8156E3FA600B93FFE /* rps_video.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +400,7 @@
 				F244A054156BB5EF0046F08A /* ComputerPlayer.m in Sources */,
 				F2CB3DE9156CDFFE00C5A945 /* HandSignFactory.m in Sources */,
 				F2CB3DED156CE2E600C5A945 /* GameController.m in Sources */,
+				F232F8F7156E3B3A0045C499 /* RulesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

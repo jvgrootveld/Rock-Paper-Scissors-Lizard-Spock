@@ -55,6 +55,9 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    if([segue.identifier isEqualToString:@"rulesSegue"])
+        return;
+    
     NSString *playerName = self.nameField.text;
     
     Player *newPlayer = [Player createWithName:playerName];
