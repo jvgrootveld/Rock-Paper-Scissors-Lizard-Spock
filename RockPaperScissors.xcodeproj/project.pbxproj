@@ -12,6 +12,8 @@
 		F244A045156BA8A00046F08A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = F244A044156BA8A00046F08A /* Player.m */; };
 		F244A051156BB0D00046F08A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F244A050156BB0D00046F08A /* GameViewController.m */; };
 		F244A054156BB5EF0046F08A /* ComputerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F244A053156BB5EF0046F08A /* ComputerPlayer.m */; };
+		F257428A156E4871003CCAF3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F2574289156E4871003CCAF3 /* Default.png */; };
+		F257428C156E4878003CCAF3 /* spock_small.png in Resources */ = {isa = PBXBuildFile; fileRef = F257428B156E4878003CCAF3 /* spock_small.png */; };
 		F266A705156B70DC00727DD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F266A704156B70DC00727DD1 /* UIKit.framework */; };
 		F266A707156B70DC00727DD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F266A706156B70DC00727DD1 /* Foundation.framework */; };
 		F266A709156B70DC00727DD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F266A708156B70DC00727DD1 /* CoreGraphics.framework */; };
@@ -59,6 +61,8 @@
 		F244A050156BB0D00046F08A /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		F244A052156BB5EF0046F08A /* ComputerPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerPlayer.h; sourceTree = "<group>"; };
 		F244A053156BB5EF0046F08A /* ComputerPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerPlayer.m; sourceTree = "<group>"; };
+		F2574289156E4871003CCAF3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F257428B156E4878003CCAF3 /* spock_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spock_small.png; sourceTree = "<group>"; };
 		F266A700156B70DC00727DD1 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F266A704156B70DC00727DD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F266A706156B70DC00727DD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -157,6 +161,8 @@
 		F266A6F5156B70DC00727DD1 = {
 			isa = PBXGroup;
 			children = (
+				F257428B156E4878003CCAF3 /* spock_small.png */,
+				F2574289156E4871003CCAF3 /* Default.png */,
 				F266A70A156B70DC00727DD1 /* RockPaperScissors */,
 				F266A728156B70DC00727DD1 /* RockPaperScissorsTests */,
 				F266A703156B70DC00727DD1 /* Frameworks */,
@@ -356,6 +362,8 @@
 				F2CB3DFA156D0C0300C5A945 /* rps_bg.png in Resources */,
 				F232F8F3156E3A650045C499 /* rps_rules.png in Resources */,
 				F2A18FA8156E3FA600B93FFE /* rps_video.mov in Resources */,
+				F257428A156E4871003CCAF3 /* Default.png in Resources */,
+				F257428C156E4878003CCAF3 /* spock_small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
