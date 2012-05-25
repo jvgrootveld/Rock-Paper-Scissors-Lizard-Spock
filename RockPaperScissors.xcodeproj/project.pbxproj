@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2047D0E156F612800471B57 /* lizard.png in Resources */ = {isa = PBXBuildFile; fileRef = F2047D0D156F612800471B57 /* lizard.png */; };
 		F232F8F3156E3A650045C499 /* rps_rules.png in Resources */ = {isa = PBXBuildFile; fileRef = F232F8F2156E3A650045C499 /* rps_rules.png */; };
 		F232F8F7156E3B3A0045C499 /* RulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F232F8F6156E3B3A0045C499 /* RulesViewController.m */; };
 		F244A045156BA8A00046F08A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = F244A044156BA8A00046F08A /* Player.m */; };
@@ -33,7 +34,6 @@
 		F2A18FA8156E3FA600B93FFE /* rps_video.mov in Resources */ = {isa = PBXBuildFile; fileRef = F2A18FA7156E3FA600B93FFE /* rps_video.mov */; };
 		F2CB3DE9156CDFFE00C5A945 /* HandSignFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CB3DE8156CDFFE00C5A945 /* HandSignFactory.m */; };
 		F2CB3DED156CE2E600C5A945 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CB3DEC156CE2E600C5A945 /* GameController.m */; };
-		F2CB3DF4156CF1F600C5A945 /* Lizard.png in Resources */ = {isa = PBXBuildFile; fileRef = F2CB3DEF156CF1F600C5A945 /* Lizard.png */; };
 		F2CB3DF5156CF1F600C5A945 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = F2CB3DF0156CF1F600C5A945 /* paper.png */; };
 		F2CB3DF6156CF1F600C5A945 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = F2CB3DF1156CF1F600C5A945 /* rock.png */; };
 		F2CB3DF7156CF1F600C5A945 /* scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = F2CB3DF2156CF1F600C5A945 /* scissors.png */; };
@@ -52,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2047D0D156F612800471B57 /* lizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lizard.png; sourceTree = "<group>"; };
 		F232F8F2156E3A650045C499 /* rps_rules.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rps_rules.png; sourceTree = "<group>"; };
 		F232F8F5156E3B3A0045C499 /* RulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulesViewController.h; sourceTree = "<group>"; };
 		F232F8F6156E3B3A0045C499 /* RulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulesViewController.m; sourceTree = "<group>"; };
@@ -92,7 +93,6 @@
 		F2CB3DE8156CDFFE00C5A945 /* HandSignFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandSignFactory.m; sourceTree = "<group>"; };
 		F2CB3DEB156CE2E600C5A945 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
 		F2CB3DEC156CE2E600C5A945 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
-		F2CB3DEF156CF1F600C5A945 /* Lizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lizard.png; sourceTree = "<group>"; };
 		F2CB3DF0156CF1F600C5A945 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
 		F2CB3DF1156CF1F600C5A945 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
 		F2CB3DF2156CF1F600C5A945 /* scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissors.png; sourceTree = "<group>"; };
@@ -272,9 +272,9 @@
 			children = (
 				F232F8F2156E3A650045C499 /* rps_rules.png */,
 				F2CB3DF9156D0C0300C5A945 /* rps_bg.png */,
-				F2CB3DEF156CF1F600C5A945 /* Lizard.png */,
 				F2CB3DF0156CF1F600C5A945 /* paper.png */,
 				F2CB3DF1156CF1F600C5A945 /* rock.png */,
+				F2047D0D156F612800471B57 /* lizard.png */,
 				F2CB3DF2156CF1F600C5A945 /* scissors.png */,
 				F2CB3DF3156CF1F600C5A945 /* spock.png */,
 			);
@@ -354,7 +354,6 @@
 			files = (
 				F266A70F156B70DC00727DD1 /* InfoPlist.strings in Resources */,
 				F266A718156B70DC00727DD1 /* MainStoryboard.storyboard in Resources */,
-				F2CB3DF4156CF1F600C5A945 /* Lizard.png in Resources */,
 				F2CB3DF5156CF1F600C5A945 /* paper.png in Resources */,
 				F2CB3DF6156CF1F600C5A945 /* rock.png in Resources */,
 				F2CB3DF7156CF1F600C5A945 /* scissors.png in Resources */,
@@ -364,6 +363,7 @@
 				F2A18FA8156E3FA600B93FFE /* rps_video.mov in Resources */,
 				F257428A156E4871003CCAF3 /* Default.png in Resources */,
 				F257428C156E4878003CCAF3 /* spock_small.png in Resources */,
+				F2047D0E156F612800471B57 /* lizard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

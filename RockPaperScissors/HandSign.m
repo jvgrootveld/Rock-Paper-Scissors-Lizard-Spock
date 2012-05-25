@@ -76,7 +76,8 @@
 
 - (UIImage *)image
 {
-    return [UIImage imageNamed:[HandSign nameForSign:self.type]];
+    NSString *imageName = [[HandSign nameForSign:self.type] lowercaseString];
+    return [UIImage imageNamed:imageName];
 }
 
 @end
